@@ -12,7 +12,7 @@ public class Game_screen extends Activity {
 		setContentView(R.layout.game_screen);
 		
 		
-		GameView game = new GameView(this);
+		GameView game = (GameView)this.findViewById(R.id.game_view);
 		
 		
 	}

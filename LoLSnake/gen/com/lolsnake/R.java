@@ -64,11 +64,13 @@ containing a value of this type.
         public static final int kayle_background=0x7f020004;
         public static final int left_move=0x7f020005;
         public static final int right_move=0x7f020006;
-        public static final int up_move=0x7f020007;
+        public static final int singed_sprite=0x7f020007;
+        public static final int up_move=0x7f020008;
     }
     public static final class id {
-        public static final int action_settings=0x7f090001;
-        public static final int home_screen_play_button=0x7f090000;
+        public static final int action_settings=0x7f090002;
+        public static final int game_view=0x7f090000;
+        public static final int home_screen_play_button=0x7f090001;
     }
     public static final class layout {
         public static final int game_screen=0x7f030000;
