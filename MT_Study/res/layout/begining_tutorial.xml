@@ -1,75 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#c7000000"
-    android:orientation="vertical" >
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="266dp" >
-
-        <ImageView
-            android:id="@+id/add_current_class_arrow"
-            android:layout_width="wrap_content"
-            android:layout_height="150dip"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:src="@drawable/new_class_arrow" />
-
-        <ImageView
-            android:id="@+id/add_class_arrow"
-            android:layout_width="wrap_content"
-            android:layout_height="150dip"
-            android:layout_alignParentLeft="true"
-            android:layout_alignTop="@+id/add_current_class_arrow"
-            android:src="@drawable/new_class_arrow" />
-
-        <TextView
-            android:id="@+id/first_instruction_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_below="@+id/add_current_class_arrow"
-            android:text="This adds your class schedule!"
-            android:textColor="@color/PaleGreen" />
-
-        <TextView
-            android:id="@+id/second_instruction_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/first_instruction_text"
-            android:layout_alignBottom="@+id/first_instruction_text"
-            android:layout_alignParentLeft="true"
-            android:text=""
-            android:textColor="@color/PaleGreen" />
-
-        <TextView
-            android:id="@+id/tutorial_text_heading"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignTop="@+id/add_current_class_arrow"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp"
-            android:text="Tutorials"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="@color/Blue"
-            android:textSize="50dip" />
-
-    </RelativeLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="bottom|center" >
-
-        <Button
-            android:id="@+id/beginning_tutorial_next"
-            android:layout_width="60dip"
-            android:layout_height="43dp"
-            android:layout_marginBottom="50dip"
-            android:background="@drawable/btn_round_xml"
-            android:text="Next!" />
-
-    </LinearLayout>
-
-</LinearLayout>
