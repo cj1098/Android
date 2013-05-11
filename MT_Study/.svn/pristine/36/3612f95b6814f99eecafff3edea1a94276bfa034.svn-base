@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <EditText
+            android:id="@+id/assignment_menu_delete_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/assignment_menu_delete_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/assignment_menu_delete_text"
+            android:layout_margin="5dip"
+            android:background="@drawable/btn_round_xml"
+            android:clickable="true"
+            android:padding="12dip"
+            android:text="@string/assignment_menu_delete_delete"
+            android:textColor="#FFFFFF"
+            android:width="100dip" />
+
+        <Button
+            android:id="@+id/assignment_menu_delete_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/assignment_menu_delete_delete"
+            android:layout_alignBottom="@+id/assignment_menu_delete_delete"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dip"
+            android:background="@drawable/btn_round_xml"
+            android:clickable="true"
+            android:padding="12dip"
+            android:text="@string/assignment_menu_delete_cancel"
+            android:textColor="#FFFFFF"
+            android:width="100dip" />
+
+    </RelativeLayout>

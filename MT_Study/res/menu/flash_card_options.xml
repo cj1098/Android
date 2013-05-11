@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_create"
+        android:title="@string/assignment_menu_create_new"
+        android:orderInCategory="100"
+        />
+</menu>

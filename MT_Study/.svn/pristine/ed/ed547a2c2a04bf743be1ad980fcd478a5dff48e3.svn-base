@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+﻿      <item 
+    	android:state_pressed="true" 
+        android:drawable="@drawable/btn_lgtblue_small" />
+    <item 
+    	android:state_focused="true" 
+        android:drawable="@drawable/btn_blue_small" />
+    <item 
+        android:drawable="@drawable/btn_blue_small" />
+</selector>

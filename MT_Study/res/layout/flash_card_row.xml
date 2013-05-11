@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/flash_card_study"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            />
+
+        <Button
+            android:id="@+id/flash_card_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/flash_card_study"
+            />
+
+        <Button
+            android:id="@+id/flash_card_add_to_deck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/flash_card_edit"
+            />
+
+        <Button
+            android:id="@+id/flash_card_delete_from_deck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/flash_card_add_to_deck"
+             />
+
+        <TextView
+            android:id="@+id/flash_card_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/flash_card_delete_from_deck"
+            android:layout_alignBottom="@+id/flash_card_delete_from_deck"
+            android:layout_alignParentLeft="true"
+             />
+
+    </RelativeLayout>
